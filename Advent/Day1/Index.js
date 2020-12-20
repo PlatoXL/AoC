@@ -10,7 +10,7 @@ list.forEach((row, i) => {
                 if (number(TermOne) + number(list[j]) == "2020") {
                         console.log(TermOne);
                         console.log(list[j]);
-                        console.log(nice);
+                        console.log("very nice");
                 }
             
         }
