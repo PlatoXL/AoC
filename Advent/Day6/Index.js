@@ -4,8 +4,9 @@ const list = fs.readFileSync('input.txt', 'utf8').split("\r\n\r\n")
 let rownum = 0
 
 list.forEach(row => {
-    list[rownum].replace("\r\n", "")
-    console.log(list[rownum])
+    list[rownum] = list[rownum].replace(/\r\n/g, "")
     rownum ++
 
 });
+
+console.log(list)
