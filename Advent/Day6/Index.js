@@ -6,7 +6,7 @@ let bigboi = 0
 list.forEach((row , rownum)=> {
     const answers = new Set();
     row = row.replace(/\r\n/g, "")
-            var babylove = row.split('')
+            let babylove = row.split('')
                 babylove.forEach(baby => {
                     answers.add(baby)
 
@@ -18,11 +18,7 @@ return bigboi
 
 console.log(part1())
 
-function part2() {
-    list.forEach((row , rownum)=> {
-        row = row.replace(/\r\n/g, "")
-                var chars = row.split('')
-
-    });
-    return
-    }
+list.forEach((row , rownum)=> {
+    let person = row.split('\r\n')
+    console.log(person)
+});
