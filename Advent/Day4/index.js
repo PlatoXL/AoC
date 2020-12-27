@@ -15,12 +15,11 @@ function part1() {
           numcorrectfield++;
         }
       }
-      if (numcorrectfield == 7) {
-        valid++;
-      }
     });
+    if (numcorrectfield == 7) {
+      valid++;
+    }
   });
-
   return valid;
 }
 
