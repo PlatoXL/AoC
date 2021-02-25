@@ -4,6 +4,7 @@ const earliesttime = Number(list[0]);
 const busids = list[1].split(/(?<=\d),/g).map((busiq) => {
   return Number(busiq.replace(/\D+/g, ""));
 });
+
 function part1() {
   let answers = [];
   let pallarinteforloop = 0;
